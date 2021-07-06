@@ -1,0 +1,536 @@
+  #login__page{
+    background:url('../images/bg5.jpg');
+    height:100vh;
+    background-position: top;
+    background-size:cover;
+}
+
+.bgColor{
+  background-color: #4ca9df;
+}
+h1{
+  color:#fff;
+}
+  .row {
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+  /*page index*/
+   #page__index{
+      height:100vh;
+
+     background:rgb(225, 245, 254);
+    
+  }
+
+  #page__index  h1{
+    color:#000;
+  }
+
+  #page__index .row{
+      padding:200px;
+  }
+
+  .logo{
+    margin-top:-110px;
+  }
+
+
+/*fin*/
+
+  /* design inscription */
+
+  #inscription h2{
+       color:#fff;
+       font-size: 1.9rem;
+        text-transform: uppercase;
+  }
+.inscription__form{
+  margin:0 auto;
+  padding:50px;
+
+
+}
+  .inscription__form form{
+    background:rgba(0, 0, 0, 0.6);
+    padding:20px;
+    border-radius:30px;
+  }
+
+  .inscription__form form a{
+    color:#fff;
+  }
+
+  #inscription {
+    background: url('../images/bg-login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    text-align: center;
+
+  }
+  #inscription .form__groupinput label{
+    position:relative;
+    right:31%;
+    margin-bottom:-5px;
+  
+  }
+
+
+#inscription .col-6:nth-child(1){
+
+  height:100vh;
+  background:url('../images/lady.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:top;
+
+}
+#inscription form{
+  text-align: center;
+}
+#inscription h2{
+text-align:center;
+}
+
+
+#inscription .col-6:nth-child(1) .row{
+  height:100vh;
+  background: -webkit-linear-gradient(left,rgba(164, 69, 178,0.5),rgba(212, 24, 114,0.5),rgb(250, 66, 153,0.5));
+}
+
+#inscription .col-4{
+  height:100vh;
+}
+
+.danger{
+  color: #dc3545;
+
+}
+
+/*fin*/
+
+/* design accueil */
+  header{
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    background:rgb(225, 245, 254);
+    padding:20px;
+    width:100%;
+    align-items: baseline;
+    left:0;
+  }
+
+  .main p{
+    text-align:center;
+    font-size: 1.4rem;
+    color:#fff;
+    padding:30px;
+  }
+
+  .ligne{
+     padding:20px;
+    background:rgba(0, 0, 0, 0.6);
+  }
+
+  .comments{
+    text-align: justify;
+  }
+
+  i span{
+  position:absolute;
+  width:40%;
+  top:-20%;
+  
+  }
+
+  .show{
+    display:block;
+  }
+
+  .nshow{
+    display:none !important;
+  }
+
+  i {
+    position:relative;
+    top:10%;
+  }
+
+
+  #list{
+    height:250px;
+    overflow: scroll;
+    margin-bottom:-200px;
+
+  }
+
+  header a{
+    text-decoration: none;
+  }
+
+  nav ul {
+    list-style: none;
+    display: inline-block;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin-left:15px;
+  }
+
+  #page__accueil header div:nth-child(2){
+      align-items: flex-start;
+  }
+  header a img{
+    border-radius:50px;
+  }
+
+
+  .pageaccueil__block1{
+    height:100vh;
+    background: #fff;
+    position: fixed;
+    left:0;
+    order:1;
+    bottom:-12%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding:20px;
+    border:2px solid #fff;
+  }
+
+  .pageaccueil__msg{
+  bottom:20%;
+    width:50% !important;
+    margin:0 auto;
+    margin-top: 20px !important;
+  
+  }
+
+  .chat{
+    margin-top:300px;
+  }
+  table{
+    text-align:center;
+  }
+   table tr td{
+     width:30%;
+     
+   }
+  .pageaccueil__block2{
+    height:100vh;
+    text-align: center;
+    background: #fff;
+    position:fixed;
+    right:0;
+    order:3;
+    bottom:-12%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding:20px;
+    border:2px solid #fff;
+  }
+
+  #page__accueil .pageaccueil__block2{
+   background:#f8f9fa;
+  }
+
+  .row .main{
+    background: url('../images/apprenant.jpg');
+    background-size: cover;
+    height:250px;
+   padding:20px;
+   margin-top:76px;
+   
+  }
+
+  .text-right{
+    width:auto !important;
+    text-align:right !important;
+    background:rgba(212, 24, 114,0.5);
+    padding:5px;
+   
+  }
+
+  .text-left{
+    text-align:left !important;
+    background: rgba(164, 69, 178,0.5);
+    padding:5px;
+  }
+
+
+/*fin*/
+#page__inbox .pageaccueil__msg{
+  margin-top:20px;
+}
+
+tr a{
+  text-decoration: none;
+  color:black;
+   font-weight: bold;
+}
+
+/* inbox part*/
+#page__inbox .chat{
+  margin-top:-40px;
+
+}
+.titre_user{
+      position: absolute;
+      top: 15%;
+    margin-top:-20px;
+    text-align:center;
+}
+
+.pageaccueil__msg h2{
+
+
+  background:#fff;
+  padding:5px;
+  width:100%;
+  text-align:center;
+  margin:0 auto;
+  text-transform: uppercase;
+
+  
+}
+
+
+#listeMsg p{
+  background:rgb(225, 245, 254);
+  word-wrap: break-word;
+  height: auto;
+  width: 100%;
+  padding: 5px;
+ 
+}
+
+.p1{
+   border-top-left-radius:15px;
+
+}
+
+.p1,.p2{
+  line-height: 1.5;
+}
+
+.p2{
+  border-top-right-radius:15px;
+ 
+}
+
+.listeMsg--chatting{
+  position:absolute;
+  bottom:3%;
+
+}
+.listeMsg--chatting input[type='text']{
+  position:relative;
+  width:100%;
+}
+
+.listeMsg--chatting input[type='submit']{
+  position:absolute;
+  top:16px;
+  right:-8px;
+
+   
+}
+
+.chat{
+  height:400px;
+  overflow-y: scroll;
+  margin-bottom:50px;
+}
+/* end*/
+
+/* partie chat message*/
+.header{
+  height:90px;
+  background:#fff;
+  margin-top:80px;
+  display: flex;
+  align-items: baseline;
+  padding:20px;
+}
+
+.modalLink{
+  margin-top:10px;
+}
+
+.body{
+  height:300px;
+  overflow-y:auto;
+  padding: 10px;
+ background: url('../images/chat.jpg');
+ /*background:-webkit-linear-gradient( right, #91EAE4, #86A8E7, #7F7FD5);*/
+  background-size: cover;
+  background-position: bottom;
+ 
+}
+
+.pieds{
+  height:130px;
+ /*background-image:linear-gradient( #292e91,#4ca9df);*/
+ background:-webkit-linear-gradient( right, #91EAE4, #86A8E7, #7F7FD5);
+  margin:0 auto;
+  padding:20px;
+}
+#page__inbox.pageaccueil__msg{
+  background-color: #dc3545;
+}
+#page__inbox .col-md-8{
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+.pageinbox--chat{
+  float:right;
+  width:100%;
+}
+
+.montrer{
+
+  margin-top: 200px;
+  text-align: center;
+  
+}
+
+.montrer p{
+  font-size:1.4rem;
+}
+
+.auteur{ 
+   margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: #82ccdd;
+  padding: 10px;
+  position: relative;
+}
+.destinataire{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #78e08f;
+  padding: 10px;
+  position: relative;
+}
+
+.pieds input.form-control {
+
+  margin:0 auto;
+}
+
+
+.form__groupinput{
+text-align: center;
+}
+
+.pieds input[type="submit"]{
+  border-radius: 15px 15px 15px 0 !important;
+	background-color: rgba(0,0,0,0.3) !important;
+			border:0 !important;
+			color: white !important;
+			cursor: pointer;
+
+}
+
+.dot{
+  display: none;
+}
+
+/*fin */
+
+
+/* Media query  accuei */
+@media screen and (max-width:1024px){
+  
+  #list{
+    height:420px;
+    overflow:auto;
+    margin-bottom:-200px;
+
+  }
+  .pageaccueil__block1{
+       display:none;
+   
+  }
+
+   .dot{
+    display: block;
+    position: absolute; 
+    right: 10%;
+    margin-top: -20px;
+    background: white;
+  }
+
+  .dotm{
+    display: block;
+    /* position: absolute; */
+    right: 10%;
+    margin-top: -5px;
+    background: white;
+  }
+
+  .pageaccueil__msg{
+      position:inherit;
+  left:0;
+  right: 0;
+  bottom:0;
+    margin:0 auto;
+    text-align:center;
+    order:2;
+  width:100% !important;
+
+  }
+
+  .pageaccueil__block2{
+   width:100% !important;
+    height:auto;
+    text-align: center;
+    background: #fff;
+    position:fixed;
+    right:0;
+    order:1;
+    bottom:0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    padding:20px;
+  }
+
+  .pageaccueil__block2 table{
+   margin:0 auto;
+  }
+
+  #listeMsg{
+  
+
+    overflow: scroll;
+  }
+
+
+
+  /*index */
+  #page__index .row{
+    padding:0;
+}
+
+.logo{
+  margin-top:100px;
+  text-align:center;
+}
+
+/* accueil */
+
+
+}
+
+
